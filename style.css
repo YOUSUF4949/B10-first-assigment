@@ -82,10 +82,45 @@ nav .nav-brand h2{
   text-decoration: none;
   background-color:rgb(13, 19, 33);
   color: white;
-  padding: 22px 24px;
+  padding: 20px 22px;
   border-radius: 8px;
   font-weight: 600;
   margin: 25px 0px;
   display: inline-block;
 }
 /* header section design ends here */
+/* main section design starts here */
+.main-section{
+  width: 1140px;
+  height: 1395px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 74px auto;
+  position: relative;
+}
+.web-development{
+  width: 946px;
+  height: 1235px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(235, 232, 232);
+}
+.web-development-content{
+  text-align: center;
+}
+.web-development-content h2{
+  text-align:center;
+  font-size: 32px;
+  color: rgb(13, 19, 33);
+  margin-bottom: 24px;
+}
+
+.web-development-content p{
+  font-size: 16px;
+  color: rgb(13, 19, 33);
+  margin-bottom: 48px;
+}
+/* development card2 design  */
+/* development card3 design  */
+/* main section design ends here */
