@@ -32,7 +32,7 @@ nav .nav-brand h2{
 }
 /* banner section design here */
 .banner-section{
-  background-image: url(/B10A1-Challenge-Begins/assets/Hero-bg.png);
+  background-image: url(/assets/Hero-bg.png);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -410,7 +410,7 @@ nav .nav-brand h2{
   width: 1140px;
   height: 314px;
   background-color: rgb(13, 19, 33);
-  background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+  background-image: url(/assets/handshake.jpg);
   background-size: cover;
   background-position: center;
   background-blend-mode:overlay;
