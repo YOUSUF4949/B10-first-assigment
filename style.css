@@ -92,10 +92,11 @@ nav .nav-brand h2{
 /* main section design starts here */
 .main-section{
   width: 1140px;
-  height: 1395px;
+  height: 1300px;
   background: rgba(13, 19, 33, 0.02);
-  margin: 80px auto;
+  margin: 88px auto;
   position: relative;
+
 }
 .web-development{
   width: 946px;
@@ -189,5 +190,51 @@ nav .nav-brand h2{
   width: 30%;
 
 }
-/* development card2 design  */
+/* inspiration section design starts here */
+.inspiration-contianer{
+  width: 1140px;
+  margin: 150px auto;
+}
+.inspiar-content{
+  text-align: center;
+  width: 850px;
+  margin: 0 auto 48px auto;
+}
+
+.inspiar-content h2{
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(13, 19, 33);
+}
+
+.inspiar-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+}
+.video-container{
+  width: 1140px;
+  height: 614px;
+  border: 2px solid #666;
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+
+.video-container iframe{
+  width: 1070px;
+  height: 550px;
+  margin: 0 auto;
+  border-radius: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* inspiration section design ends here */
 /* main section design ends here */
