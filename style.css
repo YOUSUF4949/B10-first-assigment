@@ -94,17 +94,17 @@ nav .nav-brand h2{
   width: 1140px;
   height: 1395px;
   background: rgba(13, 19, 33, 0.02);
-  margin: 74px auto;
+  margin: 80px auto;
   position: relative;
 }
 .web-development{
   width: 946px;
-  height: 1235px;
+  height: 1200px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(235, 232, 232);
+  /* background-color: rgb(235, 232, 232); */
 }
 .web-development-content{
   text-align: center;
@@ -131,7 +131,7 @@ nav .nav-brand h2{
   background-color: white;
   border-radius: 10px;
   padding: 10px 20px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 }
 
 /* card01 */
@@ -169,6 +169,7 @@ nav .nav-brand h2{
 .card2{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .image-side{
   width: 30%;
@@ -176,6 +177,17 @@ nav .nav-brand h2{
 .content-side{
   width: 60%;
 }
+/* card3 */
+.card3{
+  display: flex;
+  justify-content: space-around;
+}
+.content-side{
+  width: 60%;
+}
+.image-side{
+  width: 30%;
+
+}
 /* development card2 design  */
-/* development card3 design  */
 /* main section design ends here */
