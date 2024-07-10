@@ -131,6 +131,7 @@ nav .nav-brand h2{
   background-color: white;
   border-radius: 10px;
   padding: 10px 20px;
+  margin-bottom: 32px;
 }
 
 /* card01 */
@@ -165,7 +166,16 @@ nav .nav-brand h2{
   color:rgba(13, 19, 33, 0.7);
 }
 /* card2 */
-
+.card2{
+  display: flex;
+  justify-content: space-around;
+}
+.image-side{
+  width: 30%;
+}
+.content-side{
+  width: 60%;
+}
 /* development card2 design  */
 /* development card3 design  */
 /* main section design ends here */
