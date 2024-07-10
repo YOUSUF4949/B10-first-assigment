@@ -193,7 +193,7 @@ nav .nav-brand h2{
 /* inspiration section design starts here */
 .inspiration-contianer{
   width: 1140px;
-  margin: 150px auto;
+  margin: 130px auto;
 }
 .inspiar-content{
   text-align: center;
@@ -220,9 +220,9 @@ nav .nav-brand h2{
   height: 614px;
   border: 2px solid #666;
   position: relative;
-  box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
+  margin: 0 auto;
 }
 
 .video-container iframe{
@@ -235,6 +235,110 @@ nav .nav-brand h2{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 /* inspiration section design ends here */
+/* my current target design stats here */
+.current-target-card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-target-content{
+  width: 945px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.current-target-content h2{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.current-target-content p{
+  font-weight: 400;
+  font-size: 16px;
+  color:rgb(13, 19, 33);
+}
+/* target card 01 */
+.current-target-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-target-card > .card{
+ margin-right: 24px;
+ width: 365px;
+}
+.target-card1{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 20px;
+}
+.target-card1 .logo img{
+  margin-bottom: 24px;
+}
+.target-card1 .card-content h2{
+  color:rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.target-card1 .card-content p{
+  margin-bottom: 24px;
+}
+.target-card1 .card-content a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+/* target 2 */
+.target-card2{
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 20px;
+}
+.target-card2 .logo img{
+  margin-bottom: 24px;
+}
+.target-card2 .card-content h2{
+  color:rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.target-card2 .card-content p{
+  margin-bottom: 24px;
+}
+.target-card2 .card-content a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+/* target 3 */
+.target-card3{
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 20px;
+}
+.target-card3 .logo img{
+  margin-bottom: 24px;
+}
+.target-card3 .card-content h2{
+  color:rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.target-card3 .card-content p{
+  margin-bottom: 24px;
+}
+.target-card3 .card-content a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+/* my current target design ends here */
 /* main section design ends here */
