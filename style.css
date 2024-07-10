@@ -402,4 +402,64 @@ nav .nav-brand h2{
     padding: 40px;
   }
 /* my next target design ends here */
+
+/* support section design starts here */
+.support-section{
+
+}
+.support-container{
+  width: 1140px;
+  height: 314px;
+  background-color: rgb(13, 19, 33);
+  background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:overlay;
+  border-radius: 16px;
+  position: relative;
+}
+
+.support-content{
+  width: 1044px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.support-content h2{
+  font-size: 32px;
+  font-size: 700;
+  color: rgb(255, 255, 255);
+  margin-bottom: 16px;
+}
+
+.support-content p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+
+.support-content form input[type="text"]{
+  width: 548px;
+  padding: 15px 20px 15px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.support-content form input[type="submit"]{
+  width: 120px;
+  font-size: 20px;
+  padding: 13px 20px 13px 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+/* support section design ends  here */
 /* main section design ends here */
