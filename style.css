@@ -237,6 +237,10 @@ nav .nav-brand h2{
 }
 /* inspiration section design ends here */
 /* my current target design stats here */
+.my-current-target{
+  width: 1140px;
+  margin: 0 auto;
+}
 .current-target-card{
   display: flex;
   justify-content: space-between;
@@ -341,4 +345,61 @@ nav .nav-brand h2{
   font-weight: 700;
 }
 /* my current target design ends here */
+
+/* my next target design starts here */
+  .next-target{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 110px;
+  }
+  .card1-content h2,
+  .card2-content h2,
+  .card3-content h2{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-bottom: 8px;
+  }
+  .card1-content p,
+  .card2-content p,
+  .card3-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(13, 19, 33);
+    margin-bottom: 24px;
+  }
+
+  .card1-content a,
+  .card2-content a,
+  .card3-content a {
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .next-target-content{
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .next-target-content h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  }
+
+  .next-target-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(13, 19, 33); 
+  }
+  /* next target card 1 */
+  .next-target-card .card{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 40px;
+  }
+/* my next target design ends here */
 /* main section design ends here */
